@@ -1,0 +1,27 @@
+{
+  "name": "guppy-post-checkout",
+  "version": "0.1.0",
+  "description": "Installs a post-checkout git-hook only, for guppy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "guppy post-checkout"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealklanni/guppy-post-checkout.git"
+  },
+  "keywords": [
+    "guppy",
+    "post-checkout"
+  ],
+  "author": "Kevin Lanni (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/guppy-post-checkout/issues"
+  },
+  "homepage": "https://github.com/therealklanni/guppy-post-checkout",
+  "dependencies": {
+    "guppy-cli": "^0.2.4"
+  }
+}
